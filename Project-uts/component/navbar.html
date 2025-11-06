@@ -1,0 +1,43 @@
+<nav class="navbar">
+  <div class="navbar-logo">
+    <img src="../img/logo_buku.jpg" alt="Logo">
+  </div>
+  <div class="navbar-title">
+    Toko Buku
+  </div>
+</nav>
+
+<style>
+  .navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 12px 0;
+    position: relative;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar-logo img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .navbar-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #0288d1;
+    text-align: center;
+    width: 100%;
+  }
+</style>
